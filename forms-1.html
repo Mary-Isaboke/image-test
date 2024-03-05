@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STUDENTS REGESTRATION FORM.</title>
+    </head>
+    <body>
+        <form action="data-php" method="post" enctype="regestration form">
+            <label for="name">Name:</label>
+            <input type="text " id="name" name="name" placeholder="Please enter your name here..." required>
+            <br>
+            <label for="mobile">Mobile Number:</label>
+            <input type="number" id="mobile" min="0" max="1000" name="mobile" placeholder="12345678">
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email_address" name="email_address" placeholder="mary@mail.com">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" minlength="6" maxlength="10" id="password" name="password">
+            <br>
+            <label for="Address">Address:</label>
+            <input type="address" id="address" name="address" required>
+            <br>
+            <label for="D.O.B">D.O.B:</label>
+            <input type="D.O.B" id="D.O.B" name="D.O.B" required>
+            <br>
+            <label for="Course">Course:</label>
+            <input type="course" id="course" name="course" required>
+            <br>
+                <legend>Gender: </legend>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label>Female</label>
+                <input type="radio" id="others" name="others" value="Others"
+                <label>Others</label>
+            <hr>
+            <input type="button" id="register" name="register" value="Register">
+            <input type="button" id="cancle" name="cancle" value="Cancle">
+            <br>
+            
+        </form>
+    </body>
+</html>
